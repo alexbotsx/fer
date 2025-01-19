@@ -61,7 +61,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
 ${tradutor.texto1[11]}
 
 ╭───── • ◆ • ─────╮
-├✰ _${usedPrefix}terminosycondiciones_
 ├✰ _${usedPrefix}grupos_
 ├✰ _${usedPrefix}estado_
 ├✰ _${usedPrefix}infobot_
