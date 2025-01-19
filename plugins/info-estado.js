@@ -1,15 +1,15 @@
-import { generateWAMessageFromContent } from "baileys";
+import { generateWAMessageFromContent } from "@whiskeysockets/baileys";
 import os from "os";
 import util from "util";
 import sizeFormatter from "human-readable";
-import MessageType from "baileys";
+import MessageType from "@whiskeysockets/baileys";
 import fs from "fs";
 import { performance } from "perf_hooks";
 
 const handler = async (m, { conn, usedPrefix }) => {
   const datas = global
-  const idioma = datas.db.data.users[m.sender].language || global.defaultLenguaje
-  const _translate = JSON.parse(fs.readFileSync(`./src/languages/${idioma}.json`))
+  const idioma = datas.db.data.users[m.sender].language
+  const _translate = JSON.parse(fs.readFileSync(`./language/${idioma}.json`))
   const tradutor = _translate.plugins.info_estado
 
   const _uptime = process.uptime() * 1000;
@@ -31,9 +31,9 @@ const handler = async (m, { conn, usedPrefix }) => {
   const wm = 'The Mystic Bot';
   const info = ` ${tradutor.texto1[0]}
 
-  ${tradutor.texto1[1]} Bruno Sobrino
+  ${tradutor.texto1[1]} 𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧
   ${tradutor.texto1[2]} +51926490894
-  ${tradutor.texto1[3]} paypal.me/BrunoSob
+  ${tradutor.texto1[3]} https://chat.whatsapp.com/IGsGRrP8paEAD2mHVF0xUT
 
   ${tradutor.texto1[4]} ${rtime}
   ${tradutor.texto1[5]} ${uptime}
@@ -75,7 +75,7 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j",
         mediaType: 2,
         previewType: "pdf",
-        title: "𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓",
+        title: "𝗚𝗛𝗢𝗦𝗧 𝗕𝗢𝗧",
         body: tradutor.texto2,
         thumbnail: imagen1,
         sourceUrl: "https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j",
