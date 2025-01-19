@@ -27,9 +27,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `ＭＥＮＵ | ＣＯＭＰＬＥＴＯ ⌟*
 
-*╭━〔 𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓 〕━╮*
+*╭━〔 ZerwayBot 〕━╮*
 ┃➔ ⭐ *Owner:* Alex
-┃➔ 📱 *Contacto*: wa.me/+51926490894
+┃➔ 📱 *Contacto*: wa.me/+584122216538
 ┃➔ 💌 *Pruebas:* 
 ╰━━━━━━━━━━━━━━╯
 

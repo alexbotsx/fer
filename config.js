@@ -37,11 +37,11 @@ global.prems = ['51926490894'];
 global.BASE_API_DELIRIUS = "https://deliriussapi-oficial.vercel.app";
 
 global.packname = 'Sticker';
-global.author = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
-global.wm = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
-global.titulowm = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
-global.titulowm2 = `𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓`
-global.igfg = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
+global.author = 'ZerwayBot';
+global.wm = 'ZerwayBot';
+global.titulowm = 'ZerwayBot';
+global.titulowm2 = `ZerwayBot`
+global.igfg = 'ZerwayBot';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 /*global.imagen1 = fs.createReadStream('./src/assets/images/menu/languages/es/menu.png');
@@ -67,9 +67,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓`;
-global.gt = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
-global.mysticbot = '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓';
+global.wm2 = `${dia} ${fecha}\nZerwayBot`;
+global.gt = 'ZerwayBot';
+global.mysticbot = 'ZerwayBot';
 global.channel = 'https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j';
 global.md = 'https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j';
 global.mysticbot = 'https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j';

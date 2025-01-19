@@ -1,4 +1,4 @@
-// GHOST BOT@BrunoSobrino - _antiarab.js
+// ZerwayBot@BrunoSobrino - _antiarab.js
 
 
 const handler = (m) => m;
