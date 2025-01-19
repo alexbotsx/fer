@@ -1,4 +1,4 @@
-// TheMystic-Bot-MD@BrunoSobrino - _antiarab.js
+// GHOST BOT@BrunoSobrino - _antiarab.js
 
 
 const handler = (m) => m;
