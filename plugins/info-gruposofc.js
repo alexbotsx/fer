@@ -23,7 +23,7 @@ ${tradutor.texto1[1]}
 
 2.- https://chat.whatsapp.com/Fy74b6fgE9SJJpHVi6CKJY`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
+    'document': {url: `https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -32,7 +32,7 @@ ${tradutor.texto1[1]}
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,
